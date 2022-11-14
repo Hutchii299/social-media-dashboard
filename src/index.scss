@@ -1,0 +1,32 @@
+@import "./common-styles/variables";
+@import "./common-styles/utilities";
+@import "./App.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  // font-family: 'Press Start 2P', cursive;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: black;
+  min-height: 100vh;
+}
+
+// .App {
+//   background-color: $color-purple;
+// }
